@@ -1,0 +1,255 @@
+/* GLOBAL */
+:root {
+	--primary-text-color: #434455;
+	--secondary-txt-color: #e7e9fc;
+	--title-text-color: #2e2f42;
+	--accent-color: #4d5ae5;
+	--bg-color: #ffffff;
+	--secondary-color: #f4f4fd;
+	--btn-hover-color: #404bbf;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+	background-color: var(--bg-color);
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.list {
+	list-style: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* LOGO */
+.logo-link {
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--accent-color);
+	display: flex;
+}
+.logo-name {
+	color: var(--title-text-color);
+}
+
+/* HEADER */
+/* header {
+	} */
+
+/* NAVIGATION */
+/* .navigation {
+}
+.nav-list {
+}
+.nav-item {
+} */
+.nav-link {
+	font-size: 16px;
+	line-height: 0.66;
+	letter-spacing: 0.02em;
+	font-weight: 700;
+	color: var(--title-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--accent-color);
+}
+.nav-link:active {
+	color: var(--primary-text-color);
+}
+
+.current {
+	color: var(--accent-color);
+}
+/* .nav-item {
+}
+.header-contacts {
+} */
+.email,
+.tel {
+	font-size: 16px;
+	line-height: 0.66;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+.email:hover,
+.email:focus,
+.tel:hover,
+.tel:focus {
+	color: var(--accent-color);
+}
+
+/* MAIN PAGE */
+/* HERO */
+.hero {
+	background-color: var(--title-text-color);
+}
+
+.hero-header {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	text-align: center;
+
+	color: var(--bg-color);
+}
+
+.hero-button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 0.84;
+	align-items: center;
+	letter-spacing: 0.04em;
+
+	color: var(--bg-color);
+	background: var(--accent-color);
+	cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	background: var(--btn-hover-color);
+}
+
+.hero-button:active {
+	background: var(--secondary-color);
+	color: var(--accent-color);
+}
+
+/* MAIN */
+
+.section-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--title-text-color);
+}
+
+.section-text {
+	line-height: 1.5;
+}
+
+.section-header {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--title-text-color);
+}
+
+.team {
+	background: var(--secondary-color);
+}
+
+/* .team-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 0px 32px;
+	gap: 32px;
+} */
+
+.team-mate {
+	background-color: var(--background-color);
+}
+
+.team-name {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--title-text-color);
+}
+
+.team-position {
+	line-height: 1.5;
+	text-align: center;
+}
+
+/* FOOTER */
+.logo-namef {
+	color: var(--secondary-color);
+}
+
+footer {
+	background-color: var(--title-text-color);
+}
+
+.footer-text {
+	line-height: 1.5;
+	color: var(--secondary-txt-color);
+}
+
+/* .footer-block {	
+} */
+
+/* PORTFOLIO PAGE */
+/* FILTERS */
+.filter-btn {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+
+	text-align: center;
+	color: var(--accent-color);
+	background: var(--secondary-color);
+	cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	color: #ffffff;
+	background: var(--accent-color);
+}
+
+.filter-btn:active {
+	color: var(--accent-color);
+	background: var(--secondary-color);
+}
+
+/* .filter-list {
+} */
+
+/* .prjct-card-item {
+	
+} */
+
+/* .prjct-card-link > p {
+  color: var(--primary-text-color);
+} */
+
+/* .stylish-txt {
+  color: var(--secondary-color);
+} */
