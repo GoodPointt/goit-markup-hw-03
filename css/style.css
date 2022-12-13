@@ -17,17 +17,6 @@ body {
 	background-color: var(--bg-color);
 }
 
-.link {
-	text-decoration: none;
-	color: inherit;
-}
-
-.list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
 p,
 h1,
 h2,
@@ -41,6 +30,17 @@ h6 {
 
 img {
 	display: block;
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .visually-hidden {
@@ -60,9 +60,10 @@ img {
 .section {
 	padding: 120px 0px;
 }
-.section.section.no-padding-top {
+.section.no-padding-top {
 	padding-top: 0;
 }
+
 .container {
 	width: 1128px;
 	margin: 0 auto;
@@ -71,7 +72,8 @@ img {
 	outline: 2px dashed tomato;
 }
 
-.card-item {
+.card-item,
+.team-item {
 	outline: 2px dashed palegreen;
 }
 
@@ -95,7 +97,6 @@ header {
 	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 	padding-top: 24px;
 	padding-bottom: 24px;
-	margin-bottom: 96px;
 }
 
 /* NAVIGATION */
@@ -145,6 +146,11 @@ header {
 /* HERO */
 .hero {
 	background-color: var(--title-text-color);
+	text-align: center;
+}
+
+.section.hero-padding {
+	padding: 192px 474px;
 }
 
 .hero-header {
@@ -152,9 +158,10 @@ header {
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
-	text-align: center;
 
 	color: var(--bg-color);
+
+	margin-bottom: 48px;
 }
 
 .hero-button {
@@ -168,6 +175,8 @@ header {
 	color: var(--bg-color);
 	background: var(--accent-color);
 	cursor: pointer;
+	border-radius: 4px;
+	padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -194,7 +203,7 @@ header {
 
 .section-text {
 	line-height: 1.5;
-	margin-bottom: 32px;
+	padding-bottom: 32px;
 }
 
 .section-header {
@@ -205,8 +214,11 @@ header {
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--title-text-color);
+	margin-bottom: 72px;
 }
-
+.feature .section-text {
+	padding-bottom: 0;
+}
 .card-link .section-title {
 	margin-left: 16px;
 }
@@ -227,23 +239,24 @@ header {
 	gap: 32px;
 } */
 
-.team-mate {
+.team-item {
 	background-color: var(--background-color);
+	text-align: center;
 }
 
-.team-name {
+/* .team-name {
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	text-align: center;
+
 	color: var(--title-text-color);
 }
 
 .team-position {
 	line-height: 1.5;
 	text-align: center;
-}
+} */
 
 /* FOOTER */
 .logo-namef {
@@ -279,6 +292,10 @@ header {
 	color: var(--accent-color);
 	background: var(--secondary-color);
 	cursor: pointer;
+
+	padding: 12px 24px;
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
 }
 
 .filter-btn:hover,

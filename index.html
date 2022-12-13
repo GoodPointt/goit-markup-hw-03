@@ -22,10 +22,10 @@
 	</head>
 
 	<body>
-		<header>
+		<header class="header">
+			<!--Navigation menu-->
 			<div class="container">
-				<!--Navigation menu-->
-				<nav class="nav">
+				<nav class="navigation">
 					<a href="./index.html" class="logo-link link">
 						Web
 						<span class="logo-name">Studio</span>
@@ -34,7 +34,7 @@
 						<li class="nav-item">
 							<a href="./index.html" class="nav-link link current">Studio</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav_item">
 							<a href="./portfolio.html" class="nav-link link">Portfolio</a>
 						</li>
 						<li class="nav-item">
@@ -42,6 +42,7 @@
 						</li>
 					</ul>
 				</nav>
+
 				<!--Contacts-->
 				<ul class="header-contacts list">
 					<li><a class="email link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -52,84 +53,90 @@
 
 		<main>
 			<!--Hero-->
-			<section class="hero section">
+			<section class="hero section hero-padding">
 				<h1 class="hero-header">Effective Solutions for Your Business</h1>
 				<button class="hero-button" type="button">Order Service</button>
 			</section>
 
 			<!--Section 1-->
-			<section class="features section container">
-				<h2 class="visually-hidden">Features</h2>
+			<section class="features section">
+				<div class="container">
+					<h2 class="visually-hidden">Features</h2>
 
-				<ul class="feature-list list">
-					<li class="feature">
-						<h3 class="section-title">Strategy</h3>
-						<p class="section-text">
-							Our goal is to identify the business problem to walk away with the perfect and creative solution.
-						</p>
-					</li>
-					<li class="feature">
-						<h3 class="section-title">Punctuality</h3>
-						<p class="section-text">
-							Bring the key message to the brand's audience for the best price within the shortest possible time.
-						</p>
-					</li>
-					<li class="feature">
-						<h3 class="section-title">Diligence</h3>
-						<p class="section-text">
-							Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-						</p>
-					</li>
-					<li class="feature">
-						<h3 class="section-title">Technologies</h3>
-						<p class="section-text">
-							Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-						</p>
-					</li>
-				</ul>
+					<ul class="feature-list list">
+						<li class="feature">
+							<h3 class="section-title">Strategy</h3>
+							<p class="section-text">
+								Our goal is to identify the business problem to walk away with the perfect and creative solution.
+							</p>
+						</li>
+						<li class="feature">
+							<h3 class="section-title">Punctuality</h3>
+							<p class="section-text">
+								Bring the key message to the brand's audience for the best price within the shortest possible time.
+							</p>
+						</li>
+						<li class="feature">
+							<h3 class="section-title">Diligence</h3>
+							<p class="section-text">
+								Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+							</p>
+						</li>
+						<li class="feature">
+							<h3 class="section-title">Technologies</h3>
+							<p class="section-text">
+								Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+							</p>
+						</li>
+					</ul>
+				</div>
 			</section>
 
 			<!--Section 2-->
-			<section class="work section container">
-				<h2 class="section-header">What are we doing</h2>
-				<ul class="section2-list list">
-					<li class="section2-img">
-						<img src="./images/img.jpg" alt="desktop" width="360" />
-					</li>
-					<li class="section2-img">
-						<img src="./images/img1.jpg" alt="mobile" width="360" />
-					</li>
-					<li class="section2-img">
-						<img src="./images/img2.jpg" alt="sync" width="360" />
-					</li>
-				</ul>
+			<section class="work section no-padding-top">
+				<div class="container">
+					<h2 class="section-header">What are we doing</h2>
+					<ul class="section2-list list">
+						<li class="section2-img">
+							<img src="./images/img.jpg" alt="desktop" width="360" />
+						</li>
+						<li class="section2-img">
+							<img src="./images/img1.jpg" alt="mobile" width="360" />
+						</li>
+						<li class="section2-img">
+							<img src="./images/img2.jpg" alt="sync" width="360" />
+						</li>
+					</ul>
+				</div>
 			</section>
 
 			<!--Section 3-->
-			<section class="team section container">
-				<h2 class="section-header">Our team</h2>
-				<ul class="team-list list">
-					<li class="team-mate">
-						<img class="card-img" src="./images/mark.jpg" alt="photo mark" width="264" />
-						<h3 class="team-name">Mark Guerrero</h3>
-						<p class="team-position">Product Designer</p>
-					</li>
-					<li class="team-mate">
-						<img class="card-img" src="./images/tom.jpg" alt="photo tom" width="264" />
-						<h3 class="team-name">Tom Ford</h3>
-						<p class="team-position">Frontend Developer</p>
-					</li>
-					<li class="team-mate">
-						<img class="card-img" src="./images/camila.jpg" alt="photo camila" width="264" />
-						<h3 class="team-name">Camila Garcia</h3>
-						<p class="team-position">Marketing</p>
-					</li>
-					<li class="team-mate">
-						<img class="card-img" src="./images/daniel.jpg" alt="photo daniel" width="264" />
-						<h3 class="team-name">Daniel Wilson</h3>
-						<p class="team-position">UI Designer</p>
-					</li>
-				</ul>
+			<section class="team section">
+				<div class="container">
+					<h2 class="section-header">Our team</h2>
+					<ul class="team-list list">
+						<li class="team-item">
+							<img class="card-img" src="./images/mark.jpg" alt="photo mark" width="264" />
+							<h3 class="section-title team-name">Mark Guerrero</h3>
+							<p class="team-position section-text">Product Designer</p>
+						</li>
+						<li class="team-item">
+							<img class="card-img" src="./images/tom.jpg" alt="photo tom" width="264" />
+							<h3 class="section-title team-name">Tom Ford</h3>
+							<p class="team-position section-text">Frontend Developer</p>
+						</li>
+						<li class="team-item">
+							<img class="card-img" src="./images/camila.jpg" alt="photo camila" width="264" />
+							<h3 class="section-title team-name">Camila Garcia</h3>
+							<p class="team-position section-text">Marketing</p>
+						</li>
+						<li class="team-item">
+							<img class="card-img" src="./images/daniel.jpg" alt="photo daniel" width="264" />
+							<h3 class="section-title team-name">Daniel Wilson</h3>
+							<p class="team-position section-text">UI Designer</p>
+						</li>
+					</ul>
+				</div>
 			</section>
 		</main>
 
