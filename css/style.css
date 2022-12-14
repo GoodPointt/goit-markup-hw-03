@@ -17,6 +17,7 @@ body {
 	background-color: var(--bg-color);
 }
 
+a,
 p,
 h1,
 h2,
@@ -56,6 +57,7 @@ img {
 
 .section {
 	padding: 120px 0px;
+
 	/* outline: 2px dashed lime; */
 }
 .section.no-padding-top {
@@ -98,17 +100,21 @@ header {
 }
 
 /* NAVIGATION */
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+}
 .navigation {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 .nav-list {
 	display: flex;
 	gap: 40px;
+	margin-left: 77px;
 }
 .navigation .nav-list {
-	padding-right: 130px;
+	/* padding-right: 130px; */
 }
 .nav-item {
 }
