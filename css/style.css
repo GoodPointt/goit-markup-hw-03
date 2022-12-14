@@ -143,18 +143,21 @@ header {
 
 .contacts-list {
 	display: flex;
-	gap: 40px;
+	/* gap: 40px; */
 }
 
-.contacts-item {
+.contacts-link {
 	font-size: 16px;
 	line-height: 0.66;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
 }
+.contacts-list .contacts-item + .contacts-item {
+	margin-left: 40px;
+}
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-link:hover,
+.contacts-link:focus {
 	color: var(--accent-color);
 }
 
