@@ -112,8 +112,6 @@ a {
 /* HEADER */
 header {
 	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-	padding-top: 24px;
-	padding-bottom: 24px;
 }
 
 /* NAVIGATION */
@@ -140,6 +138,9 @@ header {
 	letter-spacing: 0.02em;
 	font-weight: 700;
 	color: var(--title-text-color);
+	padding-top: 31px;
+	padding-bottom: 31px;
+	display: block;
 }
 
 .nav-link:hover,
@@ -168,6 +169,9 @@ header {
 	line-height: 0.66;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
+	padding-top: 31px;
+	padding-bottom: 31px;
+	display: block;
 }
 .contacts-list .contacts-item + .contacts-item {
 	margin-left: 40px;
